@@ -6,52 +6,71 @@
     <title>Gaurav Raj Singh - Portfolio</title>
 
     <style>
-        .wrapper{
+        body{
+            background-color: bisque;
+            color: chocolate; 
+            /* mah fav */
+        }
+        .container{
             width: 100%;
+            height: 100%;
             display: flex;
+            align-items: center;
             justify-content: center;
         }
-
-        .header {
+        .wrapper{
+            width: 800px;
             display: flex;
-            gap: 40px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: dashed 5px chocolate;
+            border-radius: 25px;
         }
-
-        .about {
-        display: flex;
-        flex-direction: column;
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
-
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 600px;
+            text-align: center;
+        }
         img {
-            height: 98px;
+            height: auto;
             width: 100px;
             border-radius: 25%;
-            margin-top: 45px;
+            margin: 45px;
         }
         
     </style>
 </head>
 <body>
+    <div class="container">
     <div class="wrapper">
-        <div class="container">
-
             <div class="header">
-                <img src="./pic.jpg" alt="profilepic">
+                <img src="./Ananya.jpg" alt="profilepic">
                 <div class="about">
-                    <h1>Gaurav Raj Singh</h1>
+                    <h1>Ananya Singh Vijayanand</h1>
                     <ul>
-                        <li>RegNo: 12222030</li>
+                        <li>RegNo: 12205779</li>
                         <li>Department: CSE</li>
-                        <li>Email: gauravrajsingh047@gmail.com</li>
+                        <li>Email: singhananya5040@gmail.com</li>
                     </ul>
                 </div>
             </div>
             <div class="main">
                 <h3>About Me</h3>
-                <p>I am very passionate about internal working of system and internet. I have experience in front end web development. My hobies are playing football and learning about latest tech in industry</p>
+                <p>Ananya Singh, a B.Tech student in Computer Science Engineering, is passionately navigating her 4th semester. Aspiring to become a front-end developer, she balances her tech pursuits with a love for books, finding inspiration in literature's diverse realms. Ananya blends analytical thinking and creativity, poised to make a mark in technology.</p>
             </div>
-        </div>
     </div>
+</div>
     
 </body>
 </html>
